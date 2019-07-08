@@ -1,0 +1,47 @@
+/**!
+ * stylesheet for "2020.teens-town.me"
+ * Copyright 2019 Kohei Seta
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * 
+ * @since 2019.07.08
+ * @author Kohei Seta
+ */
+
+@import 'boot';
+
+// ////////////////////
+// M PLUS 1p by Google Fonts
+// ////////////////////
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p:300,400,700');
+
+* {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+// ////////////////////
+// Fontawesome Pro
+// ////////////////////
+@import './../fontawesome/css/all.css';
+
+// ********************
+// 共通
+// ********************
+.inner {
+  display: block;
+  width: $breakpoint-lg;
+  margin: 0 auto;
+  padding: 5px;
+
+  @include mq() {
+    width: auto;
+  }
+}
+
+// ********************
+// レイアウト
+// ********************
+.wrapper {
+  min-height: 100vh;
+}
+
+.header {}
